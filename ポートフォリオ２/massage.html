@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MASSAGE</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--CSSファイル読み込み-->
+    <link rel="stylesheet" type="text/css" href="stylesheet3.css">
+
+    <!--フォント指定-->
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Squada+One" rel="stylesheet">
+
+    <script src="javascript1.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <img class="header-logo" src="egg-bard.png">
+            <div class="header-title">Portfolio</div>
+        </div>
+        <div class="header-right">
+            <!--ツイッタ-->
+            <a href="https://twitter.com/HIYORI46978263">
+        <i class="fab fa-twitter twitter-logo fa-fw "></i>
+        </a>
+            <!--インスタグラム-->
+            <a href="https://www.instagram.com/iyohachi_saitou/?hl=ja">
+        <i class="fab fa-instagram insta-logo fa-fw"></i>
+        </a>
+            <!--フェイスブック-->
+            <a href="https://www.facebook.com/profile.php?id=100027299328050">
+        <i class="fab fa-facebook facebook-logo fa-fw"></i>
+        </a>
+        </div>
+    </header>
+
+    <div class="contact-form">
+        <div class="contact-title">CONTACT</div>
+
+        <form metod="post" name="form1" action="result.html" onsubmit="return checkForm()">
+            
+            <p> 氏名（必須)</p>
+            
+            <!--アラート 未記入-->
+            <p id="notice-input-text-001 " > 【名前を入力して下さい】</p>
+            
+            <!--文字制限-->
+            <p id="notice-input-text-002" > 【24文字以内で記入してください】</p>
+            
+            <!--テキストボックス-->
+           
+             <p><input type="text" name="input01"></p>
+            
+            <!--フリガナ-->
+            <p> フリガナ（必須)</p>
+            
+            <p id="notice-input-text-003" > 【フリガナを入力して下さい】</p>
+            
+            <p id="notice-input-text-004" > 【24文字以内で記入してください】</p>
+            
+            <p><input type="text" id="dat" name="input02"></p>
+            
+            <!--ユーザー名　２５文字以内-->
+            <p>ユーザー名</p>
+            <p id="notice-input-text-005" >【25文字以内で記入してください】</p>
+        
+            <p><input type="text" name="input03"></p>
+            
+            <!--電話番号 10桁以上-->
+            <p>電話番号（必須）</p>
+            
+            <p id="notice-input-text-006">【電話番号を記入してください】</p>
+            
+            <p id="notice-input-text-007">【１０桁以上入力してください】</p>
+            
+            <p><input type="text" name="input04"></p>
+            
+            <!--メールアドレス-->
+            <p>メールアドレス（必須）</p>
+            
+            <!--未記入-->
+            <p id="notice-input-text-008">【メールアドレスを入力してください】</p>
+            
+         <p><input type="text" name="input05"></p>
+        
+        <!--お問い合わせ-->
+        <p>お問い合わせ</p>
+            <p> <textarea name="input06" id="notice-input-text-009" cols="30" rows="10"></textarea></p>
+        
+    <!--送信ボタン-->
+            <p> <input type="submit" id="btn-submit"> </p>
+        </form>
+
+    </div>
+
+
+
+
+    <footer> </footer>
+
+   
+       
+
+
+
+</body>
+
+</html>

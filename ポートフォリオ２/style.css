@@ -1,0 +1,217 @@
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+/*ヘッダー左側アイコン*/
+
+.header-logo {
+    width: 55px;
+    height: 50px;
+    padding: 10px;
+    float: left;
+}
+
+.header-title {
+    float: left;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'arial black';
+    padding: 7px;
+}
+
+/*ヘッダー右側アイコン*/
+
+.header-right {
+    padding-right: 50px;
+}
+/*ツイッター*/
+.twitter-logo {
+    font-size: 35px;
+    color: snow;
+    float: right;
+    margin: 17px ;
+    transition: 0.5s;
+}
+.twitter-logo:hover{
+    
+    color:skyblue;
+}
+/*インスタ*/
+.insta-logo {
+    font-size: 35px;
+    color: snow;
+    float: right;
+    margin: 17px;
+    transition: 0.5s;
+}
+
+.insta-logo:hover{
+    
+    color: #3f729b;
+}
+
+/*フェイスブック*/
+.facebook-logo {
+    font-size: 35px;
+    color: snow;
+    float: right;
+    margin: 17px;
+    transition: 0.5s;
+}
+
+.facebook-logo:hover{
+    color: #305097;
+}
+/*メインとメニュー　フレックボックス 指定*/
+
+div#layout {
+    display: flex;
+}
+
+/*メニュー*/
+
+.menu-wrapper {
+    width: 25%;
+    height: 680px;
+    background-color: rgba(166, 166, 166, 0.2);
+    margin: 0;
+}
+
+.menu-icon {
+    width: 200px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+/*メニューの中　フレックボックス 指定*/
+
+/*ボタン*/
+
+.menu-button {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+
+}
+
+/*ブロフィールボタン*/
+
+.profile-button {
+    font-size: 30px;
+    font-family: 'Amatic SC';
+    width: 80%;
+    height: 55px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 10px;
+    outline: none;
+    transition: 0.5s;
+
+}
+
+.profile-button:hover {
+    letter-spacing: 15px;
+}
+
+/*ホームタウンボタン*/
+
+.hometown-button {
+    font-size: 30px;
+    font-family: 'Amatic SC';
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    outline: none;
+    transition: 0.5s;
+}
+
+.hometown-button:hover {
+    letter-spacing: 15px;
+}
+
+/*ギャラリーボタン*/
+
+.gallery-button {
+    font-size: 30px;
+    font-family: 'Amatic SC';
+    width: 80%;
+    height: 55px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    outline: none;
+    transition: 0.5s;
+}
+
+.gallery-button:hover {
+    letter-spacing: 15px
+}
+
+/*メッセージボタン*/
+.massage-button{
+    font-size: 30px;
+    font-family: 'Amatic SC';
+    width: 80%;
+    height: 55px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 10px;
+    outline: none;
+    transition: 0.5s;
+}
+.massage-button:hover{
+    letter-spacing:  15px;
+}
+
+/*メイン*/
+
+.main-wrapper {
+    width: 75%;
+    height: 680px;
+    animation: 10s infinite anime1;
+    background-position: center;
+    
+    background-repeat: no-repeat;
+}
+
+@keyframes anime1{
+
+    0%{
+        background-image: url(img02.png);
+    }
+    
+    50%{
+        background-image: url(img03.png);
+    }
+    100%{
+        background-image: url(img04.png)
+    }
+}
+    
+
+.main-wrapper h1 {
+    text-align: center;
+    font-size: 150px;
+    letter-spacing: 20px;
+}
+.name-top{
+    margin: auto;
+}
+
+.name-down{
+    margin:230px 0 0 0;
+}
+/*画像切り替え*/
+
+/*フッター*/
+
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}

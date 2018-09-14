@@ -1,0 +1,69 @@
+/**/
+@media all and (max-width:1000px){
+    .menu-icon{
+        height: 150px;
+        width:150px;
+    }
+    
+    .main-wrapper h1{
+        font-size: 100px;
+    }
+    
+    .name-down{
+        margin-top:380px;
+    }
+}
+
+/*アニメーション*/
+@media all and (max-width: 670px){
+    .header-logo{
+        height: 40px;
+        width: 40px;
+        padding-top: 15px;
+    }
+    
+    .header-title{
+        font-size: 20px;
+        padding-top:20px ;
+    }
+    
+    .header-right{
+        padding-right: 10px;
+    }
+    
+    .twitter-logo{
+        font-size:30px;
+        margin: 20px 5px 5px 5px;
+     }
+    .insta-logo{
+        font-size: 30px;
+        margin: 20px 5px 5px 5px;
+    }
+    .facebook-logo{
+        font-size: 30px;
+        margin: 20px 5px 5px 5px;
+    }
+    
+    .menu-icon{
+        width:80px;
+        height: 80px
+    }
+    
+    .main-wrapper h1{
+        font-size:30px;
+    }
+    .mane-top{
+        margin: auto;
+    }
+    .name-down{
+        margin: 0 0 0 10px;
+    }
+    
+    .main-wrapper{
+        width:100%;
+    }
+    
+    .menu-wrapper{
+        background-color: white;
+    }
+}

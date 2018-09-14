@@ -1,0 +1,294 @@
+header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+}
+
+/*ヘッダー左側アイコン*/
+
+.header-logo {
+    width: 55px;
+    height: 50px;
+    padding: 10px;
+    float: left;
+}
+
+.header-title {
+    float: left;
+    color: whitesmoke;
+    font-size: 40px;
+    font-family: 'arial black';
+    padding: 7px;
+}
+
+/*ヘッダー右側アイコン*/
+
+.header-right {
+    padding-right: 50px;
+}
+/*ツイッター*/
+.twitter-logo {
+    font-size: 35px;
+    color: snow;
+    float: right;
+    margin: 17px ;
+    transition: 0.5s;
+}
+.twitter-logo:hover{
+    
+    color:skyblue;
+}
+/*インスタ*/
+.insta-logo {
+    font-size: 35px;
+    color: snow;
+    float: right;
+    margin: 17px;
+    transition: 0.5s;
+}
+
+.insta-logo:hover{
+    
+    color: #3f729b;
+}
+
+/*フェイスブック*/
+.facebook-logo {
+    font-size: 35px;
+    color: snow;
+    float: right;
+    margin: 17px;
+    transition: 0.5s;
+}
+
+.facebook-logo:hover{
+    color: #305097;
+}
+
+/*メイン*/
+
+.main{
+    width:100%;
+    height: 100%;
+  
+  
+}
+
+/*画像指定*/
+.main{
+    padding-top:30px; 
+    background-repeat: no-repeat;
+    
+}
+
+.main-top{
+    text-align: center;
+}
+
+.sun-1{
+    position: relative;
+}
+.sun-2{
+    position: absolute;
+    left:475px
+}
+
+
+.load1{
+    animation: spin1 30s linear infinite;
+}
+
+
+@keyframes spin1 {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+
+.load2{
+    animation: spin2 30s linear infinite;
+}
+
+@keyframes spin2{
+    0% {transform: rotate(0deg);}
+	100% {transform: rotate(-360deg);}
+}
+
+
+/*プロフィールタイトル文字*/
+.main h1{
+    font-size:50px;
+    text-align: center;
+    font-family: 'Amatic SC';
+    margin: auto;
+    position: absolute;
+    top:345px;
+    left: 630px;
+}
+
+/*装飾*/
+
+
+.accesary-1{
+    width:100%;
+    height:50px;
+    background-color:  #dcae1d;
+    position: relative;
+  
+}
+.accesary-1 img{
+    width:120px;
+    height:120px;
+    float:right;
+    position: absolute;
+    top: -56px;
+    left:400px;
+    
+
+}
+
+.accesary-2{
+    width:100%;
+    height:100px;
+    background-color: #00303f;
+}
+.accesary-2 h2{
+      margin: auto;
+    padding:10px 50px;
+    font-size:55px;
+    color:aliceblue;
+}
+
+.main-background{
+    width:100%;
+    height:100%;
+    background-color: #155765;
+}
+/*プロフィール*/
+.main-profile p{
+    margin: 0 0 0 50px;
+    padding-top:20px;
+    letter-spacing: 5px;
+    color: azure;
+    font-size:16px;
+    font-family: 'M PLUS 1p';
+    line-height: 40px;
+    
+    
+}
+/*しきり*/
+.line-border{
+border-bottom: 10px dashed #00303f;
+    margin-top:70px; 
+}
+
+/*文字*/
+.main-profile span{
+    font-size:23px;
+    border-bottom: 2px dashed #00303f;
+}
+
+/*プレイリスト*/
+.main-like h3{
+    font-size:50px;
+    color:beige;
+    margin: 50px 0  30px 50px;
+    
+}
+.main-like h4{
+    font-size:30px;
+    margin: 0 0 0 50px;
+    color:bisque;
+    font-family: 'Amatic SC';
+    letter-spacing: 20px;
+}
+/*動画*/
+.video{
+    position: relative;
+    width:100%;
+    margin: 50px 50px 0px 50px;
+    
+    
+}
+/*仕切り*/
+.line-border-2{
+        border-bottom: 10px dashed #00303f;
+    margin-top:70px; 
+}
+
+/*本*/
+.book-isaka{
+width:100%;
+    height:100vh;
+}
+.like-books h5{
+    font-size:50px;
+    color:cornsilk;
+    margin: 50px 0  30px 50px;
+}
+
+.like-books h6{
+     font-size:30px;
+    margin: 0 0 0 50px;
+    color:whitesmoke;
+    font-family: 'Noto Serif JP';
+    letter-spacing: 20px;
+}
+
+/*小説　画像*/
+.like-books img{
+    margin:50px;
+    float: left;
+}
+.book-isaka p{
+    padding-top:60px;
+}
+
+/*名言*/
+.like-text p{
+    font-size:30px;
+    font-family: 'Sawarabi Mincho';
+    color:black;
+    margin-top:30px;
+}
+
+/*画像*/
+.book-saihate img{
+    width:300px;
+    height: 450px;
+    float: right;
+    margin:50px;
+}
+.book-saihate p{
+    margin:  50px;
+    
+}
+.like-text-2 p{
+    font-family: serif;
+  
+    font-size:30px;
+
+}
+.like-text-2 span{
+    font-size:25px;
+    border: none;
+    color:cadetblue;
+    
+}
+
+
+/*フッター*/
+footer {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    
+}
+
+.pagetop{
+    text-align: center;
+    color:azure;
+    font-size:40px;
+    margin:auto;
+    
+}
+

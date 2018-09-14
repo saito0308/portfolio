@@ -1,0 +1,140 @@
+@media all and (max-width:1024px) {
+    .sun-1 {
+        position: relative;
+    }
+    .sun-2 {
+        position: absolute;
+        left: 260px;
+    }
+    .main h1 {
+        margin: 0 0 0 -200px
+    }
+    .like-text p {
+        font-size: 25px;
+        margin: -10px 30px;
+    }
+
+    .book-saihate {
+        margin-top: -800px;
+        margin-bottom: 100px;
+    }
+}
+
+@media all and (max-width:400px) {
+    .header-logo {
+        width: 25px;
+        height: 25px;
+        padding: 23px 10px;
+    }
+    .header-title {
+        font-size: 25px;
+        padding: 16px 5px 16px 0;
+
+    }
+    .header-right {
+        padding-right: 25px;
+    }
+
+
+    .twitter-logo {
+        font-size: 25px;
+        margin: 23px 5px;
+    }
+    .insta-logo {
+        font-size: 25px;
+        margin: 23px 5px;
+    }
+    .facebook-logo {
+        font-size: 25px;
+        margin: 23px 5px;
+    }
+    .sun-1 {
+        width: 250px;
+        position: relative;
+    }
+    .sun-2 {
+        width: 250px;
+        position: absolute;
+        left: 62px;
+    }
+    .main {
+        margin: auto;
+    }
+    .main h1 {
+        position: absolute;
+        top: 200px;
+        left: 340px;
+    }
+    .accesary-1 {
+        margin-top: 30px;
+    }
+    .accesary-2 h2 {
+        font-size: 34px;
+        padding: 24px;
+        text-align: center;
+    }
+    .main-profile span {
+        font-size: 30px;
+    }
+    .main-profile p {
+        font-size: 13px;
+
+
+    }
+    .accesary-1 img {
+        position: absolute;
+        top;
+        400px;
+        left: 200px;
+    }
+
+
+    .video iframe {
+        width: 300px;
+        height: 150px;
+        margin: auto;
+        text-align: center;
+
+
+    }
+    .like-books h5 {
+        text-align: center;
+    }
+    .like-books h6 {
+        font-size: 24px;
+
+    }
+    .book-isaka img {
+        width: 257px;
+        text-align: center;
+    }
+    .book-isaka p {
+        text-align: center;
+        font-size: 10px;
+        line-height: 35px;
+
+    }
+    .like-text p {
+        text-align: center;
+        line-height: 30px;
+        padding-top: 25px;
+        font-size: 18px;
+    }
+    .book-saihate img {
+        margin-top: 450px;
+        text-align: center;
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
